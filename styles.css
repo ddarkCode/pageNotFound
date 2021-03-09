@@ -64,3 +64,18 @@ button {
   text-transform: uppercase;
   color: #fff;
 }
+
+@media only screen and (max-width: 1200px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 7%;
+  }
+  .image-container {
+    width: 100%;
+  }
+
+  .main-page {
+    width: 100%;
+  }
+}
